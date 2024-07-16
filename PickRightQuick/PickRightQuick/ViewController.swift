@@ -7,6 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet var hpLabel: UILabel!
     var pickedValue: Int = 0
     var game = Game()
+    let x = 0
     
     // MARK: Life cycle
     override func viewDidLoad() {
